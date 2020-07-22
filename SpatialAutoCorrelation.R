@@ -5,7 +5,12 @@
 #   Dear Roger and list members,
 # 
 #   I have a ols regression and want to remove spatial autocorrelation (SAC) from the residuals,
-#     in order to avoid its potential effects of SAC on the hypothesis tests (and the reviewers/editor).  I have generated spatial eigenvectors with SpatialFiltering(), and added the generated vectors to the regression.  Surprisingly, SAC appears to become more pronounced.  I also tried ME(), but many more vectors are produced and SAC is also not removed.  Isn't including the vectors from SpatialFiltering() supposed to reduce SAC?
+#     in order to avoid its potential effects of SAC on the hypothesis tests (and the reviewers/editor). 
+#   I have generated spatial eigenvectors with SpatialFiltering(), 
+#   and added the generated vectors to the regression.  
+#   Surprisingly, SAC appears to become more pronounced.  
+#  I also tried ME(), but many more vectors are produced and SAC is also not removed.  
+#  Isn't including the vectors from SpatialFiltering() supposed to reduce SAC?
 # 
 #  Can you please enlighten me as to what's going on, what I am doing wrong, or what I should try?
 #   
